@@ -14,6 +14,7 @@
 		893D5A8A280207D8004244FF /* prince2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D5A89280207D8004244FF /* prince2Tests.swift */; };
 		893D5A94280207D8004244FF /* prince2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D5A93280207D8004244FF /* prince2UITests.swift */; };
 		893D5A96280207D8004244FF /* prince2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D5A95280207D8004244FF /* prince2UITestsLaunchTests.swift */; };
+		897EC21D2802723600A14954 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897EC21C2802723600A14954 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		893D5A8F280207D8004244FF /* prince2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prince2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		893D5A93280207D8004244FF /* prince2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prince2UITests.swift; sourceTree = "<group>"; };
 		893D5A95280207D8004244FF /* prince2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prince2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		897EC21C2802723600A14954 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				893D5A78280207D6004244FF /* prince2App.swift */,
 				893D5A7A280207D6004244FF /* ContentView.swift */,
+				897EC21C2802723600A14954 /* Model.swift */,
 				893D5A7C280207D8004244FF /* Assets.xcassets */,
 				893D5A7E280207D8004244FF /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				897EC21D2802723600A14954 /* Model.swift in Sources */,
 				893D5A7B280207D6004244FF /* ContentView.swift in Sources */,
 				893D5A79280207D6004244FF /* prince2App.swift in Sources */,
 			);
