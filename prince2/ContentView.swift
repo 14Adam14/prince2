@@ -174,8 +174,8 @@ struct ContentView: View {
             fourCircleColor = .black
             fiveCircleColor = .black
         } else if currentNumber == 2 {
-            firstCircleColor = .brown
-            secondCircleColor = .black
+            firstCircleColor = .black
+            secondCircleColor = .brown
             thirdCircleColor = .black
             fourCircleColor = .black
             fiveCircleColor = .black
@@ -229,10 +229,6 @@ struct ContentView: View {
         
     }
     
-    
-    
-    
-    
     func switchLangButtonCollor() {
         if ruLanguage {
             ruButtonColor = .brown
@@ -243,105 +239,6 @@ struct ContentView: View {
         }
     }
     
-
-        
-/*    func switchFirstButton () {
-        
-        content = firstPrince
-        
-        if firstCircleColor == .black {
-            firstCircleColor = .brown
-            secondCircleColor = .black
-            thirdCircleColor = .black
-            fourCircleColor = .black
-            fiveCircleColor = .black
-        } else if firstCircleColor == .brown {
-            return
-        }
-    }
-    
-    
-    func switchColorSecondButton () {
-        
-        content = secondPrince
-        
-        if secondCircleColor == .black {
-            secondCircleColor = .brown
-            firstCircleColor = .black
-            thirdCircleColor = .black
-            fourCircleColor = .black
-            fiveCircleColor = .black
-        } else if secondCircleColor == .brown {
-            return
-        }
-    }
-    
-    
-    func switchColorThirdButton () {
-        
-        if ruLanguage {
-            content = ruThirdPrince
-        } else if enLanguage{
-            content = enThirdPrince
-        }
-        
-        
-        
-        if thirdCircleColor == .black {
-            thirdCircleColor = .brown
-            secondCircleColor = .black
-            fourCircleColor = .black
-            fiveCircleColor = .black
-            firstCircleColor = .black
-        } else if thirdCircleColor == .brown {
-            return
-        }
-    }
-    
-    
-    func switchColorFourButton () {
-        
-        content = fourPrince
-        
-        if fourCircleColor == .black {
-            fourCircleColor = .brown
-            secondCircleColor = .black
-            thirdCircleColor = .black
-            fiveCircleColor = .black
-            firstCircleColor = .black
-        } else if fourCircleColor == .brown {
-            return
-        }
-    }
-    
-    
-    
-    func switchColorFiveButton () {
-        
-        content = fivePrince
-        
-        if fiveCircleColor == .black {
-            fiveCircleColor = .brown
-            secondCircleColor = .black
-            thirdCircleColor = .black
-            fourCircleColor = .black
-            firstCircleColor = .black
-        } else if firstCircleColor == .brown {
-            return
-        }
-    }
-    
-
-    func thirdLanguageCheck () {
-        if ruLanguage {
-            content = ruThirdPrince
-        } else {
-            content = enThirdPrince
-        }
-
-        
-    }
- */
 }
 
 struct ContentView_Previews: PreviewProvider {
