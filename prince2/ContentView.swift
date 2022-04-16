@@ -95,24 +95,24 @@ struct ContentView: View {
     
     
     var body: some View {
-        
+        NavigationView {
        
         VStack {
             HStack {
                 
-//                Circle()
-//                    .foregroundColor(enButtonColor)
-//                    .frame(width:50, height:50, alignment: .bottom)
-//                    .overlay(content: {
-//                        Text("MY")
-//                            .foregroundColor(.white)
-//                    })
-//                    .onTapGesture {
-//
-//
-//                    }
+                NavigationLink() {
+                    MyOtherScreen()
+                } label: {
+                    Circle()
+                        .foregroundColor(.black)
+                        .frame(width:50, height:50)
+                        .overlay(content: {
+                                Text("ME")
+                                 .foregroundColor(.white)
+                                           })
+                }
+
                 
-                   
                 
                 Circle()
                     .foregroundColor(ruButtonColor)
@@ -230,7 +230,7 @@ struct ContentView: View {
         }
     
     
-    
+    }
    
     
     
@@ -312,20 +312,54 @@ struct ContentView: View {
 struct MyOtherScreen: View {
     
     
+    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
-        ZStack {
-            Color.green.ignoresSafeArea()
-                .navigationTitle("veryle")
-            
-            VStack {
-                Button("back") {
-                   
-                }
-                NavigationLink("click the") {
-                    Text("leayi ne")
-                }
+        VStack{
+            ScrollView {
+                
+                Image("archetype_0")
+                    .resizable()
+                    .scaledToFit()
+                
+                Image("archetype_1")
+                    .resizable()
+                    .scaledToFit()
+                
+                Image("archetype_2")
+                    .resizable()
+                    .scaledToFit()
+                
+                Image("archetype_3")
+                    .resizable()
+                    .scaledToFit()
+                
+                Image("archetype_5")
+                    .resizable()
+                    .scaledToFit()
+                
+                Image("archetype_6")
+                    .resizable()
+                    .scaledToFit()
+                
+                Image("archetype_7")
+                    .resizable()
+                    .scaledToFit()
+                
+                Image("archetype_8")
+                    .resizable()
+                    .scaledToFit()
+                
+                Image("archetype_9")
+                    .resizable()
+                    .scaledToFit()
+                
+                Image("archetype_10")
+                    .resizable()
+                    .scaledToFit()
+    
             }
+            
         }
     }
 }
