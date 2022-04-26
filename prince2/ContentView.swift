@@ -119,7 +119,7 @@ struct ContentView: View {
                
 
             }
-            
+            .padding()
             
             ScrollView {
                 Text("\(content)")
